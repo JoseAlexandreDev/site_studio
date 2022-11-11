@@ -1,0 +1,64 @@
+Fundo
+#F2D1C9
+#F2C9C9
+#F2E4E6
+
+logo
+#73462D
+#A67C63
+#F2D4C9
+#F2BBAE
+#0D0D0D
+
+Estilo Studio
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'studio';
+    src: url('/fontes/Laine.TTF') format('opentype');
+}
+:root {
+    --cor_1: #F2D4C9;
+    --cor_2: #F2BBAE;
+    --cor_3: #A67C63;
+    --cor_4: #73462D;
+    --cor_5: #0D0D0D;
+    --fonte_padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte_studio: 'studio';
+}
+body {
+    background-color: var(--cor_1);
+}
+
+header > h1 {
+    color: var(--cor_5);
+    font-family: var(--fonte_studio), var(--fonte_padrao);
+}
+    
+div {
+    width: 1000px;
+    margin: auto;
+}
+
+Estilo teste
+
+@font-face {
+            font-family: 'studio';
+            src: url('fontes/Laine.TTF') format('opentype');
+        }
+        @font-face {
+            font-family: 'segunda';
+            src: url('fontes/leelawad.ttf') format('opentype');
+        }
+       
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'studio', 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+        h2 {
+            font-family: 'segunda', 'Courier New', Courier, monospace;
+            font-size: 1em;
+        }
