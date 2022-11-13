@@ -21,7 +21,7 @@
 
 body {
     background-color: var(--cor1);
-    font-family: var(--fonte_studio);
+    font-family: var(--fonte_padrao);
     margin: 0px;
 }
 header {
@@ -37,7 +37,7 @@ header img {
     margin: auto;
 }
 main {
-    background-color: white;
+    background-color: var(--cor6);
     max-width: 800px;
     min-width: 200px;
     margin: auto;
@@ -59,7 +59,7 @@ article > h2 {
     color: var(--cor5);
 }
 article > p {
-    font-family: var(--fonte_studio);
+    font-family: var(--fonte_padrao);
     font-size: 1.1em;
     color: black;
     text-align: justify;
