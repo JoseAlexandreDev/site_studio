@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'studio';
-    src: url(fontes/BelleAllureCM-Gros.otf) format('opentype');
-    font-weight: normal;
-}
 
 :root {
     --cor1: #F2D4C9;
@@ -16,7 +11,7 @@
     --cor7: black;
 
     --fonte_padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte_studio: 'studio', 'cursive';
+    
 }
 
 body {
